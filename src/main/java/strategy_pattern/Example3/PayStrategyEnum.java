@@ -2,13 +2,21 @@ package strategy_pattern.Example3;
 
 
 public enum PayStrategyEnum {
-    AliPay("AliPay", new AliPay()),
-    WechatPay("WechatPay", new WechatPay()),
-    UnionPay("UnionPay", new UnionPay())
+//    AliPay("AliPay", new AliPay()),
+//    WechatPay("WechatPay", new WechatPay()),
+//    UnionPay("UnionPay", new UnionPay())
+//    ;
+    AliPay(new AliPay()),
+    WechatPay(new WechatPay()),
+    UnionPay(new UnionPay())
     ;
 
     private String payType;
     private IPaymentStrategy payStrategy;
+
+    PayStrategyEnum(IPaymentStrategy payStrategy) {
+        this.payStrategy = payStrategy;
+    }
 
     PayStrategyEnum(String payType, IPaymentStrategy payStrategy) {
         this.payType = payType;
