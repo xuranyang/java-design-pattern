@@ -11,7 +11,7 @@ Java Design Pattern
 
 二、结构型模式：
 - [ ] 适配器模式（Adapter Pattern）
-- [ ] 装饰器模式（Decorator Pattern）
+- [x] 装饰器模式（Decorator Pattern）
 - [ ] 享元模式（Flyweight Pattern）
 - [ ] 桥接模式（Bridge Pattern）
 - [ ] 代理模式（Proxy Pattern）
@@ -26,7 +26,7 @@ Java Design Pattern
 - [ ] 访问者模式（Visitor Pattern）
 - [ ] 解释器模式（Interpreter Pattern）
 - [ ] 迭代器模式（Iterator Pattern）
-- [ ] 模板方法模式（Template Pattern）
+- [x] 模板方法模式（Template Pattern）
 - [ ] 状态模式（State Pattern）
 - [ ] 命令模式（Command Pattern）
 - [ ] 备忘录模式（Memento Pattern）
