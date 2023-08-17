@@ -1,4 +1,4 @@
-package factory_method.Demo;
+package simplefactory.Demo;
 
 public class Square implements Shape{
     @Override
