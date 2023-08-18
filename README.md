@@ -28,7 +28,7 @@ Java Design Pattern
 - [ ] 迭代器模式（Iterator Pattern）
 - [x] 模板方法模式（Template Pattern）
 - [ ] 状态模式（State Pattern）
-- [ ] 命令模式（Command Pattern）
+- [x] 命令模式（Command Pattern）
 - [ ] 备忘录模式（Memento Pattern）
 - [ ] 访问者模式（Visitor Pattern）
 - [ ] 中介者模式（Mediator Pattern）
