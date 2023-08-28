@@ -14,7 +14,7 @@ Java Design Pattern
 - [x] 装饰器模式（Decorator Pattern）
 - [ ] 享元模式（Flyweight Pattern）
 - [ ] 桥接模式（Bridge Pattern）
-- [ ] 代理模式（Proxy Pattern）
+- [x] 代理模式（Proxy Pattern）
 - [ ] 组合模式（Composite Pattern）
 - [x] 外观模式（Facade Pattern）
 
@@ -30,7 +30,6 @@ Java Design Pattern
 - [x] 状态模式（State Pattern）
 - [x] 命令模式（Command Pattern）
 - [ ] 备忘录模式（Memento Pattern）
-- [ ] 访问者模式（Visitor Pattern）
 - [ ] 中介者模式（Mediator Pattern）
 
 
