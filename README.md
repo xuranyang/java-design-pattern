@@ -16,7 +16,7 @@ Java Design Pattern
 - [ ] 桥接模式（Bridge Pattern）
 - [ ] 代理模式（Proxy Pattern）
 - [ ] 组合模式（Composite Pattern）
-- [ ] 外观模式（Facade Pattern）
+- [x] 外观模式（Facade Pattern）
 
 
 三、行为型模式：
