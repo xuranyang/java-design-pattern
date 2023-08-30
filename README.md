@@ -23,7 +23,7 @@ Java Design Pattern
 - [x] 策略模式（Strategy Pattern）
 - [x] 观察者模式（Observer Pattern）
 - [ ] 责任链模式（Chain of Responsibility Pattern）
-- [ ] 访问者模式（Visitor Pattern）
+- [x] 访问者模式（Visitor Pattern）
 - [ ] 解释器模式（Interpreter Pattern）
 - [ ] 迭代器模式（Iterator Pattern）
 - [x] 模板方法模式（Template Pattern）
