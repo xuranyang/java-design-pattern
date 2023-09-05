@@ -12,7 +12,7 @@ Java Design Pattern
 二、结构型模式：
 - [x] 适配器模式（Adapter Pattern）
 - [x] 装饰器模式（Decorator Pattern）
-- [ ] 享元模式（Flyweight Pattern）
+- [x] 享元模式（Flyweight Pattern）
 - [x] 桥接模式（Bridge Pattern）
 - [x] 代理模式（Proxy Pattern）
 - [ ] 组合模式（Composite Pattern）
