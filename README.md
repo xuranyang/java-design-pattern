@@ -15,7 +15,7 @@ Java Design Pattern
 - [x] 享元模式（Flyweight Pattern）
 - [x] 桥接模式（Bridge Pattern）
 - [x] 代理模式（Proxy Pattern）
-- [ ] 组合模式（Composite Pattern）
+- [x] 组合模式（Composite Pattern）
 - [x] 外观模式（Facade Pattern）
 
 
