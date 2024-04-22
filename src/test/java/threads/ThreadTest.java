@@ -7,11 +7,11 @@ import java.util.concurrent.*;
 class MyThread extends Thread {
     private int ticket = 10;
 
+    @Override
     public void run() {
         while (ticket > 0) {
             System.out.println(this.getName() + ":" + ticket--);
         }
-
     }
 }
 
@@ -47,11 +47,11 @@ class MyCallable implements Callable<String> {
  */
 public class ThreadTest {
     public static void main(String[] args) throws Exception {
-//        runThread1();
+        runThread1();
 //        runThread2();
 //        runThread3();
 //        runThread4();
-        runThread5();
+//        runThread5();
     }
 
     public static void runThread1() {
