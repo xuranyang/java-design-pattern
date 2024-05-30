@@ -24,7 +24,7 @@ public class App {
 //            hello.test();
 //        });
 
-        Aop.invoke(new HelloInteceptor(), hello::test);
+        Aop.invoke(new HelloInterceptor(), hello::test);
 
     }
 }
