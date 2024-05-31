@@ -1,5 +1,6 @@
 package ManualAop;
 
+// 拦截器
 public interface Interceptor{
-    public void invoke(Invoke invoke);
+    void invoke(Invoke invoke);
 }
