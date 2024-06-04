@@ -112,6 +112,7 @@ public class ThreadTest {
 
     public static void runThread5() throws Exception {
         // ThreadPoolExecutor 创建线程池
+        // 设计规约：线程池不允许使用 Executors 去创建，而是通过 ThreadPoolExecutor 的方式，这样的处理方式让写的同学更加明确线程池的运行规则，规避资源耗尽的风险。
         int poolSize = 3;
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(3, 3, 1, TimeUnit.MINUTES, new LinkedBlockingDeque<>());
         List<Future> futureList = new ArrayList<>();
