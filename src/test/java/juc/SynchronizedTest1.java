@@ -45,7 +45,8 @@ class SafeChange implements Callable<String> {
 
     @Override
     public String call() throws Exception {
-        // synchronized 保证同时只能有一个线程操作 userMap对象
+        // synchronized (userMap) 保证同时只能有一个线程操作 userMap对象
+        // synchronized (SafeChange.class) 或者同时只能有一个线程操作 SafeChange对象 也可以
         synchronized (userMap) {
             Integer balance = userMap.get(user);
             System.out.println(Thread.currentThread().getName() + "->修改前:" + balance);
