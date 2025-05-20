@@ -30,7 +30,7 @@ Java Design Pattern
 - [x] 状态模式（State Pattern）
 - [x] 命令模式（Command Pattern）
 - [ ] 备忘录模式（Memento Pattern）
-- [ ] 中介者模式（Mediator Pattern）
+- [x] 中介者模式（Mediator Pattern）
 
 ---
 
